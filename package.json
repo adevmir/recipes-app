@@ -26,7 +26,7 @@
     "react-scripts": "5.0.0",
     "websocket-extensions": ">=0.1.4"
   },
-  "homepage": "https://username.github.io/app-toot-name",
+  "homepage": "https://github.com/adevmir/recipes-app",
   "scripts": {
     "cy": "cypress run",
     "cy:open": "cypress open",

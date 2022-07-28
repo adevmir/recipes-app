@@ -1,0 +1,30 @@
+html {
+  background-color: whitesmoke;
+}
+
+.buttonContainer {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 10px 0 30px;
+  padding: 0 10px;
+}
+
+.buttonCategory {
+  background-color: #febcad;
+  border: 0;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.emailProfile {
+  text-align: center;
+}
+
+.detailsContainer {
+  background-color: whitesmoke;
+  padding-bottom: 15px; 
+}

@@ -1,0 +1,137 @@
+.headerContainer {
+  align-items: center;
+  background: #f15b5d;
+  color: #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.icons {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(7deg);
+}
+
+.searchBtn {
+  background: none;
+  border: 0;
+}
+
+.searchFilter {
+  align-items: center;
+  background: #f15b5d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.inputSearch {
+  border: 0;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+.radioSearch {
+  align-items: center;
+  color: #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3px;
+  width: 100%;
+}
+
+.searchFilterBtn {
+  background-color: #febcad;
+  border: 0;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.container {
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 5px 0 0;
+  padding: 5px 5px 5px 25px;
+  position: relative;
+  user-select: none;
+}
+
+.container input {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+.right-checkmark {
+  background-color: #eee;
+  border-radius: 50%;
+  height: 18px;
+  left: 2px;
+  position: absolute;
+  top: 17px;
+  width: 18px;
+}
+
+.checkmark {
+  background-color: #eee;
+  border-radius: 50%;
+  height: 18px;
+  left: 2px;
+  position: absolute;
+  top: 7px;
+  width: 18px;
+}
+
+.container input:checked ~ .right-checkmark {
+  background-color: #febcad;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #febcad;
+}
+
+.right-checkmark:after {
+  content: '';
+  display: none;
+  position: absolute;
+}
+
+.checkmark:after {
+  content: '';
+  display: none;
+  position: absolute;
+}
+
+.container .right-checkmark:after {
+  background: white;
+  border-radius: 50%;
+  height: 8px;
+  left: 5px;
+  top: 5px;
+  width: 8px;
+}
+
+.container .checkmark:after {
+  background: white;
+  border-radius: 50%;
+  height: 8px;
+  left: 5px;
+  top: 5px;
+  width: 8px;
+}
+
+.container input:checked ~ .right-checkmark:after {
+  display: block;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}

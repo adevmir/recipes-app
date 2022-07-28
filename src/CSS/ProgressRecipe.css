@@ -1,0 +1,43 @@
+.detailsContainer {
+  background-color: whitesmoke;
+  padding-bottom: 15px;
+}
+
+.imgDetail {
+  align-items: center;
+  background-color: #f15b5d;
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  justify-content: center;
+}
+
+.photoRecipe {
+  border-radius: 15px;
+  width: 300px;
+}
+
+.btnRecipes {
+  background: none;
+  border: 0;
+}
+
+.btnStartContainer {
+  align-items: center;
+  background-color: #febcad;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.btnStartRecipe {
+  background: #febcad;
+  border: none;
+  border-radius: 15px;
+  bottom: 0;
+  position: fixed;
+}

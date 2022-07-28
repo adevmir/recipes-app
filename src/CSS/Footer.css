@@ -1,0 +1,14 @@
+.footer {
+  background-color: #febcad;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-icon {
+  border-radius: 50%;
+  padding: 15px;
+}
